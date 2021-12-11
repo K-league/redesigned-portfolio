@@ -1,14 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
 /* Variables */
 :root {
-    --font-family: "Roboto", sans-serf;
+    --font-family: "Roboto";
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
-    --bg-color: #fcfcfc;
-    --primary-color: #4756df;
-    --secondary-color: #ff7235;
-    --primary-shadow: #8b8eaf;
-    --secondary-shadow: #a17a69;
+    --bg-color: #ccb7d1;
+    --primary-color: #491c72;
+    --secondary-color: #6d3268;
+    --primary-shadow: #bac5be;
+    --secondary-shadow: #ccb7d1;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -31,7 +33,7 @@ ul {
     list-style-type: none;
 }
   
-a {
+.nav-item {
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -58,7 +60,8 @@ nav {
 }
 
 nav h1 {
-    color: var(--primary-color);
+    color: #491c72;
+    font-weight: var(--bold-font);
 }
 
 nav a {
@@ -77,6 +80,7 @@ nav a:hover {
 }
 
 nav ul li {
+    color: var(--primary-color);
     font-weight: var(--bold-font);
 }
 
